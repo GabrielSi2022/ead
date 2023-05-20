@@ -82,7 +82,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
                     <div class="login-card card-block auth-body mr-auto ml-auto">
                         <form method="post" class="md-float-material">
                             <div class="text-center">
-                                <img height="60" src="assets/images/logo_preto.png" alt="logo.png">
+                                <img height="100" width="100" style="background:black; border-radius:50%" src="assets/images/dev-logoo.png" alt="logo.png">
                             </div>
                             <div class="auth-box">
                                 <div class="row m-b-20">
@@ -116,6 +116,14 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
                                     <div class="col-md-12">
                                         <button type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">Acessar</button>
                                     </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <p class="text-inverse text-left m-b-0">Desenvolvido por</p>
+                                        <p class="text-inverse text-left"><b>Gabriel Henrique Bueno</b></p>
+                                    </div>
+                                    
                                 </div>
 
                             </div>

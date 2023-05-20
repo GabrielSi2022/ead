@@ -84,7 +84,7 @@ $dados_usuario = $sql_query_admin->fetch_assoc();
                             <i class="ti-search"></i>
                         </a>
                         <a href="index.html">
-                            <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+                            <img class="img-fluid" style="width:80px" src="assets/images/dev-logoo.png" alt="Theme-Logo" />
                         </a>
                         <a class="mobile-options">
                             <i class="ti-more"></i>
