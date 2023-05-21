@@ -43,7 +43,7 @@ $num_usuarios = $sql_query->num_rows;
             <div class="card">
                 <div class="card-header">
                     <h5>Todos os Usuários</h5>
-                    <span><a href="index.php?p=cadastrar_usuario">Clique aqui</a> para cadastrar um usuário</span>
+                    <span><a href="index.php?p=cadastrar_usuario"><button type="button" class="btn btn-success">Cadastre um usuário</button></a></span>
                 </div>
                 <div class="card-block table-border-style">
                     <div class="table-responsive">
@@ -71,7 +71,7 @@ $num_usuarios = $sql_query->num_rows;
                                             <td><?php echo $usuario['nome']; ?></td>
                                             <td><?php echo $usuario['email']; ?></td>
                                             <td>R$ <?php echo number_format($usuario['creditos'], 2, ',', '.'); ?></td>
-                                            <td><a href="index.php?p=editar_usuario&id=<?php echo $usuario['id']; ?>">editar</a> | <a href="index.php?p=deletar_usuario&id=<?php echo $usuario['id']; ?>">deletar</a></td>
+                                            <td><a href="index.php?p=editar_usuario&id=<?php echo $usuario['id']; ?>"><button type="button" class="btn btn-warning">Editar</button></a>  <a href="index.php?p=deletar_usuario&id=<?php echo $usuario['id']; ?>"><button type="button" class="btn btn-danger">Apagar</button></a></td>
                                         </tr>
                                         <?php
                                     }

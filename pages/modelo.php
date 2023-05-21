@@ -31,7 +31,7 @@
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-header">
-                    <h5>Página Inicial</h5>
+                    <h5>Bem vindo ao Sistema Ead</h5>
                     <span>Seja bem vindo a THE NEW SCHOOL</span>
                 </div>
                 <div class="card-block">

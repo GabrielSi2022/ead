@@ -43,7 +43,7 @@ $num_cursos = $sql_query->num_rows;
             <div class="card">
                 <div class="card-header">
                     <h5>Todos os Cursos</h5>
-                    <span><a href="index.php?p=cadastrar_curso">Clique aqui</a> para cadastrar um curso</span>
+                    <span><a href="index.php?p=cadastrar_curso"><button type="button" class="btn btn-success">Cadastre seu curso aqui</button></a></span>
                 </div>
                 <div class="card-block table-border-style">
                     <div class="table-responsive">
@@ -71,7 +71,7 @@ $num_cursos = $sql_query->num_rows;
                                             <td><img src="<?php echo $curso['imagem']; ?>" height="50" alt=""></td>
                                             <td><?php echo $curso['titulo']; ?></td>
                                             <td>R$ <?php echo number_format($curso['preco'], 2, ',', '.'); ?></td>
-                                            <td><a href="index.php?p=editar_curso&id=<?php echo $curso['id']; ?>">editar</a> | <a href="index.php?p=deletar_curso&id=<?php echo $curso['id']; ?>">deletar</a></td>
+                                            <td><a href="index.php?p=editar_curso&id=<?php echo $curso['id']; ?>"><button type="button" class="btn btn-warning">Editar</button></a>  <a href="index.php?p=deletar_curso&id=<?php echo $curso['id']; ?>"><button type="button" class="btn btn-danger">Apagar</button></a></td>
                                         </tr>
                                         <?php
                                     }
